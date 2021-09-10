@@ -1,0 +1,45 @@
+widgets:
+  -
+    position: left
+    type: profile
+    author: GayCookie
+    author_title: Nitwit Developer
+    location: The Netherlands
+    avatar: 
+    avatar_rounded: true
+    gravatar: contact@gaycookie.dev
+    follow_link: 'https://github.com/gaycookie'
+    social_links:
+      Github:
+        icon: fab fa-github
+        url: 'https://github.com/gaycookie'
+      Twitter:
+        icon: fab fa-twitter
+        url: 'https://twitter.com/agaycookie'
+      RSS:
+        icon: fas fa-rss
+        url: /
+  -
+    position: left
+    type: toc
+    index: true
+    collapsed: true
+    depth: 3
+  -
+    position: left
+    type: links
+    links:
+      Hexo: 'https://hexo.io'
+      Bulma: 'https://bulma.io'
+  -
+    position: left
+    type: categories
+  -
+    position: left
+    type: recent_posts
+  -
+    position: left
+    type: archives
+  -
+    position: left
+    type: tags
