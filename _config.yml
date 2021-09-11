@@ -3,10 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: GayCookie
-subtitle: Blog
+title: GayCookie's Blog
+subtitle: ''
 description: ''
-keywords:
+keywords: 
+  - tech
+  - technology
+  - code
+  - coding
+  - programming
+  - development
 author: GayCookie
 language: en
 timezone: Europe/Amsterdam

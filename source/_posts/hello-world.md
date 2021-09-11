@@ -13,6 +13,8 @@ cover: https://upload.gaycookie.dev/i6iqqf.jpg
 Hello, my name is GayCookie and I love developing applications and server-side stuff.  
 Playing Minecraft is also a big passion I have together with developing mods and plugins.
 
+<!-- more -->
+
 I decided to start a blog since I'm always inspired by other developers having a blog.  
 And for some reason it always been in my mind to actually have my own blog.  
 English is totally not my native language but I will try to make it at least understandable.
