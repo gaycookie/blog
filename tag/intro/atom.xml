@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.gaycookie.dev</id>
-    <title>GayCookie • Posts by &#34;intro&#34; tag</title>
+    <title>GayCookie&#39;s Blog • Posts by &#34;intro&#34; tag</title>
     <link href="https://blog.gaycookie.dev" />
     <updated>2021-09-10T21:45:00.000Z</updated>
     <category term="update" />
@@ -11,6 +11,8 @@
         <title>Hello World</title>
         <link rel="alternate" href="https://blog.gaycookie.dev/updates/hello-world/"/>
         <content type="html">&lt;p&gt;Hello, my name is GayCookie and I love developing applications and server-side stuff.&lt;br&gt;Playing Minecraft is also a big passion I have together with developing mods and plugins.&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
 &lt;p&gt;I decided to start a blog since I’m always inspired by other developers having a blog.&lt;br&gt;And for some reason it always been in my mind to actually have my own blog.&lt;br&gt;English is totally not my native language but I will try to make it at least understandable.&lt;/p&gt;
 &lt;p&gt;My intention is to write posts on programming and other things that interest me,&lt;br&gt;also I wanna try to post tutorials but I’m a terrible teacher. 😅&lt;/p&gt;
 &lt;h3 id=&#34;Discussions&#34;&gt;&lt;a href=&#34;#Discussions&#34; class=&#34;headerlink&#34; title=&#34;Discussions&#34;&gt;&lt;/a&gt;Discussions&lt;/h3&gt;&lt;p&gt;Do you have any questions, feedback or comment?&lt;br&gt;Feel free to start a discussion &lt;a href=&#34;https://github.com/gaycookie/blog/discussions&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
