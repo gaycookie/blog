@@ -11,16 +11,21 @@ author: GayCookie
 language: en
 timezone: Europe/Amsterdam
 
-# Feed
+# Feed (also including JSON feeds)
 feed:
-  enable: true
-  order_by: -date
-  type:
-    - atom
-    - rss2
-  path:
-    - atom.xml
-    - rss2.xml
+  limit: 20
+  order_by: "-date"
+  tag_dir: "tag"
+  category_dir: "category"
+  rss:
+    enable: true
+    output: "rss.xml"
+  atom:
+    enable: true
+    output: "atom.xml"
+  jsonFeed:
+    enable: true
+    output: "feed.json"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'

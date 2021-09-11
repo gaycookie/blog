@@ -120,15 +120,15 @@ navbar:
 footer:
     # Links to be shown on the right of the footer section
     links:
-        Creative Commons:
-            icon: fab fa-creative-commons
-            url: 'https://creativecommons.org/'
-        Attribution 4.0 International:
-            icon: fab fa-creative-commons-by
-            url: 'https://creativecommons.org/licenses/by/4.0/'
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+        RSS:
+            icon: fas fa-rss
+            url: /rss.xml
+        Atom RSS:
+            icon: fas fa-rss
+            url: '/atom.xml'
+        JSON RSS:
+            icon: fas fa-rss
+            url: '/feed.json'
 # Article related configurations
 article:
     # Code highlight settings
@@ -253,9 +253,6 @@ widgets:
             CodeStats:
                 icon: fas fa-chart-bar
                 url: 'https://codestats.net/users/GayCookie'
-            RSS:
-                icon: fas fa-rss
-                url: /atom.xml
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -278,7 +275,8 @@ widgets:
             Forumboard: 'https://board.gaycookie.dev'
             Fileshare: 'https://upload.gaycookie.dev'
             Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+            Icarus: 'https://github.com/ppoffice/hexo-theme-icarus'
+            Vecteezy: 'https://vecteezy.com'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
