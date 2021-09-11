@@ -11,6 +11,17 @@ author: GayCookie
 language: en
 timezone: Europe/Amsterdam
 
+# Feed
+feed:
+  enable: true
+  order_by: -date
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.gaycookie.dev

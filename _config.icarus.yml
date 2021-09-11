@@ -3,7 +3,8 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: 
+  text: GayCookie's Blog
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -158,15 +159,15 @@ search:
     type: insight
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-comment:
-    type: gitalk
-    client_id: ${{ secrets.GITALK_CLIENT_ID }}
-    client_secret: ${{ secrets.GITALK_CLIENT_SECRET }}
-    repo: 'blog-comments'
-    owner: 'gaycookie'
-    admin:
-      - 'gaycookie'
-    per_page: 20
+#comment:
+    #type: gitalk
+    #client_id: ${{ secrets.GITALK_CLIENT_ID }}
+    #client_secret: ${{ secrets.GITALK_CLIENT_SECRET }}
+    #repo: 'blog-comments'
+    #owner: 'gaycookie'
+    #admin:
+      #- 'gaycookie'
+    #per_page: 20
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 #donates:
@@ -251,7 +252,7 @@ widgets:
                 url: 'https://twitter.com/agaycookie'
             RSS:
                 icon: fas fa-rss
-                url: /
+                url: /atom.xml
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
