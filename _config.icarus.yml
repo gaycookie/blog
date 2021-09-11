@@ -112,9 +112,9 @@ navbar:
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
-        Download on GitHub:
+        View on Github:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/gaycookie/blog'
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -159,9 +159,14 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+    type: gitalk
+    client_id: ${{ secrets.GITALK_CLIENT_ID }}
+    client_secret: ${{ secrets.GITALK_CLIENT_SECRET }}
+    repo: 'blog-comments'
+    owner: 'gaycookie'
+    admin:
+      - 'gaycookie'
+    per_page: 20
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 #donates:
@@ -265,6 +270,9 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
+            Statuspage: 'https://status.gaycookie.dev'
+            Forumboard: 'https://board.gaycookie.dev'
+            Fileshare: 'https://upload.gaycookie.dev'
             Hexo: 'https://hexo.io'
             Bulma: 'https://bulma.io'
     # Categories widget configurations
